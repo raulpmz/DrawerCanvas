@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Archivo">
+        <menu>
+
+            <item
+                android:id="@+id/nav_nuevo"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Nuevo" />
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+    <item android:title="Grosor Pincel">
+        <menu>
+            <item
+                android:id="@+id/nav_fino"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Fino" />
+            <item
+                android:id="@+id/nav_medio"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Medio" />
+            <item
+                android:id="@+id/nav_grueso"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Grueso" />
+        </menu>
+    </item>
+
+    <item android:title="Color Pincel"
+        android:checkable="false">
+        <menu>
+            <item
+                android:id="@+id/nav_negro"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="Negro" />
+            <item
+                android:id="@+id/nav_blanco"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="Blanco" />
+            <item
+                android:id="@+id/nav_azul"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="Azul" />
+            <item
+                android:id="@+id/nav_rojo"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="Rojo" />
+            <item
+                android:id="@+id/nav_verde"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="Verde" />
+            <item
+                android:id="@+id/nav_amarillo"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="Amarillo" />
+        </menu>
+    </item>
+
+    <item
+        android:title="Color Fondo">
+        <menu>
+
+            <item
+                android:id="@+id/nav_fnegro"
+                android:icon="?android:attr/actionModeSelectAllDrawable"
+                android:title="Negro" />
+            <item
+                android:id="@+id/nav_fblanco"
+                android:icon="?android:attr/actionModeSelectAllDrawable"
+                android:title="Blanco" />
+            <item
+                android:id="@+id/nav_fazul"
+                android:icon="?android:attr/actionModeSelectAllDrawable"
+                android:title="Azul" />
+            <item
+                android:id="@+id/nav_frojo"
+                android:icon="?android:attr/actionModeSelectAllDrawable"
+                android:title="Rojo" />
+            <item
+                android:id="@+id/nav_fverde"
+                android:icon="?android:attr/actionModeSelectAllDrawable"
+                android:title="Verde" />
+            <item
+                android:id="@+id/nav_famarillo"
+                android:icon="?android:attr/actionModeSelectAllDrawable"
+                android:title="Amarillo" />
+        </menu>
+    </item>
+
+</menu>
